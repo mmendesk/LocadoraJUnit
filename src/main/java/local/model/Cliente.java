@@ -1,11 +1,12 @@
 package local.model;
 
 import local.exception.ClienteException;
+import local.service.LocacaoService;
 import org.assertj.core.internal.bytebuddy.utility.RandomString;
 
 import javax.validation.constraints.Size;
 
-public class Cliente {
+public class Cliente extends LocacaoService {
 
 
 	private String nome;
