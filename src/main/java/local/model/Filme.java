@@ -24,6 +24,7 @@ public class Filme {
         this.nome = nome;
     }
 
+
     public Integer getEstoque() {
         return estoque;
     }
